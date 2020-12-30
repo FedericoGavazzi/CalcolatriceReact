@@ -1,12 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import { App } from "./App";
 
-const rootElement = document.getElementById("app");
+
+import { App } from "./app";
+import { Footer } from "./Altro"
+const rootElement = document.getElementById("root");
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className="d-flex justify-content-center align-middle">
+      <App titolo="Calcolatrice"/>
+    </div>
+    <Footer />
   </React.StrictMode>,
   rootElement
 );
+
