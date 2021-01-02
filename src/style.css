@@ -1,14 +1,15 @@
 
 body {
-    background-color: #ffffff;
-    background-image: url("https://a-static.besthdwallpaper.com/numeri-e-creature-sfondo-21_L.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    padding: 30px; 
-  }
+  background-color: #ffffff;
+  background-image: url("https://a-static.besthdwallpaper.com/numeri-e-creature-sfondo-21_L.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 30px; 
+}
 
 .footer{
   color: whitesmoke;
-  background-color: black;
-  height: 40px;
+  background-color: rgba(0, 0, 0, 0.849);
+  height: 52px;
+  padding: 10px;
 }

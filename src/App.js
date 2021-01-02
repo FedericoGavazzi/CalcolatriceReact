@@ -9,12 +9,10 @@ export function App(props) {
   function Display() {
     const { state, dispatch } = useContext(AppContext)
     return (
-      <div className="row">
       <div
-        className="display col border border-dark"
+        className="display border border-dark"
         id="display">
           {state.display}
-      </div>
       </div>
     )
   }
